@@ -1,4 +1,4 @@
-![Rocky Raccoon](https://raw.github.com/andrewmcv/raccoon/master/docs/images/rocky.png) raccoon
+![Rocky Raccoon](https://raw.github.com/andrewmcv/raccoon/master/docs/images/rocky-raccoon.png)
 =======
 
 Raccoon is an experimental language, based on luajit and luma (a powerful hygienic macro system),
