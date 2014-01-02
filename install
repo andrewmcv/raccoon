@@ -1,0 +1,46 @@
+#!/bin/sh
+
+# todo:
+# 1. make full installation work off a relative path
+# 2. make configure scripts work off a relative path
+# 3. make it work for windows + linux
+# 4. make luajit not use /usr/share etc for lookups
+
+export DIST=~/personal-installed/dist-raccoon
+
+rm -rf $DIST
+
+cd LuaJit-2.0.2
+make clean
+make
+make install
+
+cd ../cosmo-13.01.30
+./configure $DIST/bin/luajit
+make clean
+make
+make install
+
+cd ../lpeg-0.10.2
+make clean
+make
+cp lpeg.so $DIST/lib/lua/5.1
+cp re.lua $DIST/share/lua/5.1
+
+cd ../leg-0.1.2
+make clean
+make
+make install
+
+cd ../luma-0.2
+./configure $DIST/bin/luajit
+make clean
+make
+make install
+
+cd ../rings-1.3.0
+./configure
+make clean
+make
+make install
+
