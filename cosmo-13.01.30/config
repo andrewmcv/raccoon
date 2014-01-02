@@ -1,0 +1,5 @@
+LUA_BIN ?= /Users/amcveigh/personal-installed/dist-raccoon/bin/luajit
+LUA_DIR ?= /Users/amcveigh/personal-installed/dist-raccoon/share/lua/5.1
+BIN_DIR ?= /Users/amcveigh/personal-installed/dist-raccoon/bin
+LUA_LIBDIR ?= /Users/amcveigh/personal-installed/dist-raccoon/lib/lua/5.1
+DESTDIR ?= /
