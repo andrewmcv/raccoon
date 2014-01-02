@@ -6,3 +6,6 @@ Raccoon is an experimental language, based on luajit and luma (a powerful hygien
 Basically, it's going to be a bedrock for experimenting with language constructs, expressiveness, dynamism and concurrency without compromising performance.
 
 We will create a set of macros to completely customize the language: akin to how objective-C customizes and extends C.
+
+
+![Rocky Raccoon](https://raw.github.com/andrewmcv/raccoon/master/docs/images/rocky.png)
