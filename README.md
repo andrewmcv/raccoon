@@ -7,7 +7,7 @@ Rocket is a foundation for experimenting with language constructs, expressivenes
 
 It is based on luajit and a modified version of luma (a powerful hygienic macro system). It extends standard lua with language constructs for:
 
-- actors & mapping to threads, with asynchronous support
+- actors & mapping to threads, with full support for asynchronous programming
 - pattern matching, object decomposition
 - a powerful class system based on composition, with full reflection
 - list comprehensions and other data operations such as map & apply
