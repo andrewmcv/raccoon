@@ -1,4 +1,6 @@
-![1 2 3... Take off](https://raw.github.com/andrewmcv/raccoon/master/docs/images/rocket-logo.png)
+<p align="center">
+  <img src="https://raw.github.com/andrewmcv/raccoon/master/docs/images/rocket-logo.png" />
+</p>
 =======
 
 Rocket is a foundation for experimenting with language constructs, expressiveness, dynamicity, and actor-based concurrency. We aim to do all this, as well as keeping performance on a par with natively compiled static languages.
