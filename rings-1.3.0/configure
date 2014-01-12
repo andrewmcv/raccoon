@@ -19,7 +19,7 @@ else
   lua_bin_dir=`dirname $lua_bin`
 fi
 
-lua_root=/Users/amcveigh/personal-installed/dist-raccoon
+lua_root=/Users/amcveigh/personal-installed/dist-rocket
 
 if [ $lua_root != "" ]; then
   echo "Lua is in $lua_root"

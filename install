@@ -6,7 +6,7 @@
 # 3. make it work for windows + linux
 # 4. make luajit not use /usr/share etc for lookups
 
-export DIST=~/personal-installed/dist-raccoon
+export DIST=~/personal-installed/dist-rocket
 
 rm -rf $DIST
 
@@ -14,6 +14,9 @@ cd LuaJit-2.0.2
 make clean
 make
 make install
+rm -f $DIST/lib/libluajit*
+rm -rf $DIST/share/luajit*
+rm -rf $DIST/include
 
 cd ../cosmo-13.01.30
 ./configure $DIST/bin/luajit
@@ -37,10 +40,17 @@ cd ../luma-0.2
 make clean
 make
 make install
+mv $DIST/bin/luma $DIST/bin/rocket
 
 cd ../rings-1.3.0
 ./configure
 make clean
 make
 make install
+
+#cd ../penlight-1.3.1
+#cp -r lua/pl $DIST/share/lua/5.1
+
+cd ../microlight-1.1.1
+cp ml.lua $DIST/share/lua/5.1
 

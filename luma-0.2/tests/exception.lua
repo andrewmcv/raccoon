@@ -23,7 +23,7 @@ function foo(x)
    ran_finally = false
    try[[
       if x > 2 then
-	 return x * 2
+      return x * 2
       end
       error("invalid")
    catch err

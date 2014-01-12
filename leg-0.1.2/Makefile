@@ -5,7 +5,7 @@
 
 # ===== LUA PATHS =================
 # Lua's library directory
-LUA_LIB = /Users/amcveigh/personal-installed/dist-raccoon/share/lua/5.1
+LUA_LIB = /Users/amcveigh/personal-installed/dist-rocket/share/lua/5.1
 
 # ===== PROJECT INFO ==============
 # project info

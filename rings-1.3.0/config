@@ -1,7 +1,7 @@
 # Installation directories
 
 # Default prefix
-PREFIX ?= /Users/amcveigh/personal-installed/dist-raccoon
+PREFIX ?= /Users/amcveigh/personal-installed/dist-rocket
 
 DESTDIR ?= /
 
