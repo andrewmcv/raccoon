@@ -13,7 +13,7 @@ It is based on luajit and a modified version of luma (a powerful hygienic macro 
 
 It is intended to be a language that can fully mature with a programmer's growing sophistication.
 
-Our final aim is to keep the full distribution under 1mb, including all binaries and libraries.
+Our final aim is to keep the full distribution under 1.44mb, including all binaries and libraries and AJAX-based MVC system. Yep - the (uncompressed!) distribution should fit on an old-school floppy disk.
 
 
 
