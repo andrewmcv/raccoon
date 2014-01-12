@@ -10,7 +10,7 @@ It is based on luajit and a modified version of luma (a powerful hygienic macro 
 - actors & mapping to threads, with asynchronous support
 - pattern matching, object decomposition
 - a powerful class system based on composition, with full reflection
-- list comprehensions and other data operations such as map
+- list comprehensions and other data operations such as map & apply
 - exceptions
 
 It is intended to be a language that can fully mature with a programmer's growing sophistication. It is 100% backwards compatible with Lua.
