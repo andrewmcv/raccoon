@@ -1,11 +1,20 @@
-![Rocky Raccoon](https://raw.github.com/andrewmcv/raccoon/master/docs/images/rocky-raccoon.png)
+![1 2 3... Take off](https://raw.github.com/andrewmcv/raccoon/master/docs/images/rocket-logo.png)
 =======
 
-Raccoon is an experimental language, based on luajit and luma (a powerful hygienic macro system),
+Rocket is a foundation for experimenting with language constructs, expressiveness, dynamism and concurrency without compromising performance.
 
-Basically, it's going to be a bedrock for experimenting with language constructs, expressiveness, dynamism and concurrency without compromising performance.
+It is based on luajit and a modified version of luma (a powerful hygienic macro system). It extends standard lua with language constructs for:
 
-We will create a set of macros to completely customize the language: akin to how objective-C customizes and extends C.
+- actors & mapping to threads, with asynchronous support
+- pattern matching, object decomposition
+- a powerful class system based on composition, with full reflection
+- list comprehensions and other data operations such as map
+- exceptions
+
+
+
+
+
 
 
 
