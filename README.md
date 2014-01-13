@@ -15,7 +15,8 @@ It is based on luajit and a modified version of luma (a powerful hygienic macro 
 
 It is intended to be a language that can fully mature with a programmer's growing sophistication. It is 100% backwards compatible with Lua.
 
-Our final aim is to keep the full distribution under 1.44mb, including all binaries and libraries and AJAX-based MVC system. Yep - the (uncompressed!) distribution should fit on a 3.5" floppy disk. We are not enforcing this because we actually care about old-school disk drives (!), but because of our belief that there is immense power in forcing ourselves to make tough choices about what to include in our system. We want to make a tiny, powerful language and environment (including IDE) that is "fully knowable".
+Our final aim is to keep the full distribution under 1.44mb, including all binaries, libraries, AJAX-based MVC system, and full IDE including REPL. That's right - the (uncompressed!) distribution will fit on a 3.5" floppy disk. We are not enforcing this because we actually care about old-school disk drives (!), but because of our belief that there is immense power in forcing ourselves to make tough choices about what to include in our system. We want to make a tiny, powerful, self-contained, highly performant language and environment that is "fully knowable".
+
 
 
 
