@@ -13,7 +13,9 @@ It is based on luajit and a modified version of luma (a powerful hygienic macro 
 - list comprehensions and other data operations such as map & apply
 - exceptions
 
-Rocket is intended to be a language that can fully mature with a programmer's growing sophistication. Think of it as a very fast, tiny, multithreaded Lisp with dictionaries instead of lists, a postfix syntax and modern web libraries. Rocket is fully backwards compatible with standard Lua.
+Rocket is intended to be a language that can fully mature with a programmer's growing sophistication. Think of it as a very fast, tiny, multithreaded Lisp with dictionaries instead of lists, a postfix syntax and modern web libraries. Programmers can use the macro system to extend and conform the language constructs to their problem domain, in a way which avoids the syntactical confusion of embedded DSLs.
+
+Rocket is fully backwards compatible with standard Lua.
 
 Our final aim is to keep the full distribution under 1.44mb, including all binaries, libraries, AJAX-based MVC system, and full browser-based IDE & REPL. That's right - the (uncompressed!) distribution will fit on a 3.5" floppy disk. We are not enforcing this because we actually care about old-school disk drives (!), but because  we believe there is immense power in forcing ourselves to make tough choices about what to include in our system and why. We want to make a tiny, powerful, self-contained, highly performant language and environment that is "fully knowable".
 
